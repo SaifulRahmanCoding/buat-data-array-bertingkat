@@ -7,13 +7,12 @@
 		background: seagreen; 
 		padding: 5px; 
 		color: white;
-		width: 234px;
+		width: 260px;
 	}
 	.object{
 		margin-top: 150px;
 	}
 	h4{
-		width: 400px;
 		color: darkred;
 	}
 </style>
