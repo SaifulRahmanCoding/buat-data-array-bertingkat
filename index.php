@@ -35,11 +35,11 @@ $handphone=[
 		'realme'=>[
 			'A8'=>[
 				'pro'=>'realme 8A Pro',
-				'5G'=>'realme 8A 5G'
+				't5G'=>'realme 8A t5G'
 			],
 			'narzo'=>[
-				'20'=>'realme narzo 20',
-				'30A'=>'realme narzo 30A'
+				'A20'=>'realme narzo A20',
+				'A30'=>'realme narzo A30'
 			]
 		]
 	],
@@ -69,7 +69,7 @@ echo "penyimpanan = {$handphone['penyimpanan']['normal']}";
 
 echo "<h5>barang 2</h5>";
 echo "perusahaan = {$handphone['perusahaan']} <br>";
-echo "brand = {$handphone['brand']['realme']['narzo']['30A']} <br>";
+echo "brand = {$handphone['brand']['realme']['narzo']['A30']} <br>";
 echo "warna = {$handphone['warna']['gelap']} <br>";
 echo "penyimpanan = {$handphone['penyimpanan']['besar']}";
 
@@ -97,7 +97,7 @@ echo "<h4>Pemanggilan index sesuai yang dibutuhkan (Bentuk Object)</h4>";
 
 echo "<h5>barang 1</h5>";
 echo "perusahaan = {$handphone->perusahaan} <br>";
-echo "brand = {$handphone->brand->poco->f1->pro} <br>";
+echo "brand = {$handphone->brand->realme->A8->t5G} <br>";
 echo "warna = {$handphone->warna->terang} <br>";
 echo "penyimpanan = {$handphone->penyimpanan->normal}";
 
